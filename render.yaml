@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: tg-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DATABASE_URL
+        value: <ваш DATABASE_URL>
+      - key: TELEGRAM_BOT_TOKEN
+        value: <ваш токен бота>
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,18 @@
+{
+    "name": "web3-tg-bot",
+    "version": "1.0.0",
+    "description": "Telegram bot for tracking payments and interacting with a blockchain.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "ethers": "^6.13.5",
+        "express": "^4.18.2",
+        "mongoose": "^7.2.1",
+        "node-telegram-bot-api": "^0.61.0",
+        "pg": "^8.13.1"
+    }
+}
